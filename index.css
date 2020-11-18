@@ -132,7 +132,7 @@
     }
     
     .page1content {
-        background-image: url("flower1.jpg");
+        background-image: url("photos/flower1.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         grid-area: B;
@@ -185,7 +185,7 @@
         width: 250px;
         height: 290px;
         margin-bottom: 15px;
-        background-image: url("purse1.jpg");
+        background-image: url("photos/urse1.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -252,6 +252,7 @@
     .fi1 {
         position: relative;
         transition: 0.5s linear;
+        background-image: url("photos/purse1.jpg");
     }
     
     .fi1-icons {
@@ -266,13 +267,13 @@
     }
     
     .fi12 {
-        background-image: url("purse2.jpg");
+        background-image: url("photos/purse2.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
     
     .fi13 {
-        background-image: url("purse3.jpg");
+        background-image: url("photos/purse3.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -298,7 +299,7 @@
     .section2 {
         width: 100%;
         height: 70vh;
-        background-image: url("flower1.jpg");
+        background-image: url("photos/flower1.jpg");
         padding-top: 90px;
     }
     
@@ -341,25 +342,25 @@
     }
     
     .fi21 {
-        background-image: url("jw1.jpg");
+        background-image: url("photos/jw1.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     
     .fi22 {
-        background-image: url("ring1.jpg");
+        background-image: url("photos/ring1.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     
     .fi23 {
-        background-image: url("purse5.jpg");
+        background-image: url("photos/purse5.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     
     .fi24 {
-        background-image: url("bracelet1.jpg");
+        background-image: url("photos/bracelet1.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
@@ -443,7 +444,7 @@
         width: 230px;
         height: 270px;
         margin-bottom: 15px;
-        background-image: url("jw1.jpg");
+        background-image: url("photos/jw1.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
@@ -452,49 +453,49 @@
         width: 230px;
         height: 270px;
         margin-bottom: 15px;
-        background-image: url("jw1.jpg");
+        background-image: url("photos/jw1.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     
     .fi31 {
-        background-image: url("ring2.webp");
+        background-image: url("photos/ring2.webp");
     }
     
     .fi32 {
-        background-image: url("purse7.jpg");
+        background-image: url("photos/purse7.jpg");
     }
     
     .fi33 {
-        background-image: url("a1.jpg");
+        background-image: url("photos/a1.jpg");
     }
     
     .fi34 {
-        background-image: url("a2.jpg");
+        background-image: url("photos/a2.jpg");
     }
     
     .fi41 {
-        background-image: url("a6.jpg");
+        background-image: url("photos/a6.jpg");
     }
     
     .fi42 {
-        background-image: url("a12.jpg");
+        background-image: url("photos/a12.jpg");
     }
     
     .fi43 {
-        background-image: url("a11.webp");
+        background-image: url("photos/a11.webp");
     }
     
     .fi43 {
-        background-image: url("ring12.jpg");
+        background-image: url("photos/ring12.jpg");
     }
     
     .fi43 {
-        background-image: url("purse14.webp");
+        background-image: url("photos/purse14.webp");
     }
     
     .fi44 {
-        background-image: url("ring12.jpg");
+        background-image: url("photos/ring12.jpg");
     }
     
     .section5 {
@@ -512,15 +513,15 @@
     }
     
     .fi51 {
-        background-image: url("news1.webp");
+        background-image: url("photos/news1.webp");
     }
     
     .fi52 {
-        background-image: url("newws2.webp");
+        background-image: url("photos/newws2.webp");
     }
     
     .fi53 {
-        background-image: url("news3.webp");
+        background-image: url("photos/news3.webp");
     }
     
     .news {
@@ -604,12 +605,12 @@
     }
     
     .sc1 {
-        background-image: url("instagram.jpg");
+        background-image: url("photos/instagram.jpg");
         position: relative;
     }
     
     .sc1:hover {
-        background-image: url("redoverlay.png"), url("instagram.jpg");
+        background-image: url("photos/redoverlay.png"), url("photos/instagram.jpg");
     }
     
     .sc1:hover i {
@@ -617,15 +618,15 @@
     }
     
     .sc2 {
-        background-image: url("face2.jpg");
+        background-image: url("photos/face2.jpg");
     }
     
     .sc3 {
-        background-image: url("twitter1.jpg");
+        background-image: url("photos/twitter1.jpg");
     }
     
     .sc4 {
-        background-image: url("pinterest.jpg");
+        background-image: url("photos/pinterest.jpg");
     }
     
     .sc1 i {
@@ -753,7 +754,7 @@
         margin-bottom: 10px;
     }
     
-    @media screen and (max-width:768px) {
+    @media only screen and (max-width:990px) {
         * {
             margin: 0;
             padding: 0;
@@ -877,5 +878,8 @@
         }
         .up1rigth {
             display: flex;
+        }
+        html {
+            overflow-x: hidden;
         }
     }
